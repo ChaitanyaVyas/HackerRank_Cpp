@@ -29,3 +29,8 @@ add_executable(01_Introduction-08_ArrayIntroduction ${SOURCE_FILES})
 
 set(SOURCE_FILES 01_Introduction/09_VariableSizedArrays.cpp)
 add_executable(01_Introduction-09_VariableSizedArrays ${SOURCE_FILES})
+
+
+
+set(SOURCE_FILES 04_STL/01_Vector-Sort.cpp)
+add_executable(04_STL-01_Vector-Sort ${SOURCE_FILES})
