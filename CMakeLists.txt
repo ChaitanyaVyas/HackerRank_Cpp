@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.4)
 project(HackerRank_Cpp)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 set(SOURCE_FILES 01_Introduction/01_HelloWorld.cpp 01_Introduction/02_InputOutput.cpp)
 add_executable(01_Introduction-01_HelloWorld ${SOURCE_FILES})
@@ -35,6 +35,9 @@ add_executable(01_Introduction-10_OperatorOverloading ${SOURCE_FILES})
 
 set(SOURCE_FILES 01_Introduction/11_OverloadOperators.cpp)
 add_executable(01_Introduction-11_OverloadOperators ${SOURCE_FILES})
+
+set(SOURCE_FILES 01_Introduction/12_VirtualFunctions.cpp)
+add_executable(01_Introduction-12_VirtualFunctions ${SOURCE_FILES})
 
 
 
