@@ -1,6 +1,7 @@
 //Operator Overloading
 
 #include<iostream>
+#include <complex>
 
 using namespace std;
 
@@ -43,8 +44,14 @@ Complex operator+ (Complex& left, Complex& right){
     return out;
 }
 
-void operator<< (Complex& complex){
-    printf("{0}", "hello");
+ostream& operator<< (ostream& stream, Complex& complex){
+    std::string real = std::to_string(complex.a);
+    std::string immaginary = std::to_string(complex.b);
+    stream.write(real.c_str(), real.size());
+    stream.write("+i", 2);
+    stream.write(immaginary.c_str(), immaginary.size());
+
+    return stream;
 }
 
 int main()
