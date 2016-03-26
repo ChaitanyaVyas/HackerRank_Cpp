@@ -49,6 +49,9 @@ add_executable(01_Introduction-13_BitArray ${SOURCE_FILES})
 set(SOURCE_FILES 02_Strings/01_Strings.cpp)
 add_executable(02_Strings-01_Strings ${SOURCE_FILES})
 
+set(SOURCE_FILES 02_Strings/02_StringStreams.cpp)
+add_executable(02_Strings-02_StringStreams ${SOURCE_FILES})
+
 
 
 # 04_STL
