@@ -39,6 +39,9 @@ add_executable(01_Introduction-11_OverloadOperators ${SOURCE_FILES})
 set(SOURCE_FILES 01_Introduction/12_VirtualFunctions.cpp)
 add_executable(01_Introduction-12_VirtualFunctions ${SOURCE_FILES})
 
+set(SOURCE_FILES 01_Introduction/13_BitArray.cpp)
+add_executable(01_Introduction-13_BitArray ${SOURCE_FILES})
+
 
 
 set(SOURCE_FILES 04_STL/01_Vector-Sort.cpp)
