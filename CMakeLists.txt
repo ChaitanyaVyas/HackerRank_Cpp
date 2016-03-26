@@ -1,3 +1,5 @@
+# 01_Introduction
+
 cmake_minimum_required(VERSION 3.4)
 project(HackerRank_Cpp)
 
@@ -43,6 +45,13 @@ set(SOURCE_FILES 01_Introduction/13_BitArray.cpp)
 add_executable(01_Introduction-13_BitArray ${SOURCE_FILES})
 
 
+# 02_Strings
+set(SOURCE_FILES 02_Strings/01_Strings.cpp)
+add_executable(02_Strings-01_Strings ${SOURCE_FILES})
+
+
+
+# 04_STL
 
 set(SOURCE_FILES 04_STL/01_Vector-Sort.cpp)
 add_executable(04_STL-01_Vector-Sort ${SOURCE_FILES})
